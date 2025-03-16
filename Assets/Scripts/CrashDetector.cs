@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class CrashDetector : MonoBehaviour
         if(collision.gameObject.tag == "Ground" && !head.IsTouching(collision.collider))
         {
             Debug.Log("Ouch! My head!");
+            SceneManager.LoadScene(0);
         }
     }
 }
