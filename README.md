@@ -1,4 +1,4 @@
-## Snow Boarder
+## Snow Boarder Game
 ### 📜 About the Game
 
 This project was created as part of the "Complete C# Unity Game Developer 2D" course on Udemy. 📚🎓
